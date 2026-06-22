@@ -1,5 +1,6 @@
+// 验证SOS完整时序，三短三长三短循环正常
 const int ledPin = 2;
-const unsigned short tShortOn = 300;
+const unsigned short tShortOn = 200;
 const unsigned short tLongOn = 600;
 const unsigned short tGap = 200;
 const unsigned short tEndPause = 2000;
