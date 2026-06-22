@@ -12,7 +12,7 @@ void loop() {
   if (curTime - preTime >= interval) {
     preTime = curTime;
     digitalWrite(ledPin, !digitalRead(ledPin));
-    Serial.print("运行毫秒：");
+    Serial.print("系统计时：");
     Serial.println(curTime);
   }
 }
