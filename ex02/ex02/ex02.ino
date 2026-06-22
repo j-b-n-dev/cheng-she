@@ -1,3 +1,4 @@
+//ex02 millis无阻塞led闪烁，不阻塞其他任务
 const int ledPin = 2;
 unsigned long preTime = 0;
 const long interval = 500;
